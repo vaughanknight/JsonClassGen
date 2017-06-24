@@ -11,6 +11,32 @@ Generates all the code based on the configuration file.
 ```
 JsonClassGen.exe batch -f configfile.json 
 ```
+Options file is in the format below.  Options are standard across all the classes to create consistency.  If, for example, you want some files visible internally and other not, create a seperate config.  That way you know what you're exposing clearly.
+
+``` javascript
+{
+  "options": {
+    "useproperties": true,
+    "pascal": true,
+    "nested": true,
+    "singlefile": true,
+    "internalvisibility": false
+  },
+  "classes": [
+    {
+      "filename": "..\\some\\folder\\dataresponse.json",
+      "namespace": "Fantastic.Namespace.Model",
+      "mainclass": "DataResponse"
+    },
+    {
+      "filename": "..\\some\\folder\\autorecognizeresponse.json",
+      "namespace": "Audio.Recognition.Model",
+      "mainclass": "AudioRecognizeResponse"
+    }
+  ]
+}
+
+```
 ### Single file
 Generates the code based for a single json file.  The below example generates nested classes in a single file using Pascal case, with the main class for the json file "MainClassName" with the awesome namespace.
 
