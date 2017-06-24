@@ -1,3 +1,4 @@
+![json2csharpcli](https://user-images.githubusercontent.com/252951/27512251-e59a1c94-597d-11e7-9c32-53b37befc85c.png)
 # JsonClassGen
 Command line wrapper around the fantastic json2csharp library to generate C# code.
 
