@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonClassGeneratorLib", "JsonCSharpClassGeneratorLib\JsonClassGeneratorLib.csproj", "{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonClassGen", "JsonClassGen\JsonClassGen.csproj", "{48F11629-BF1E-4F23-8A9D-E791DDD97358}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}.Release|x86.ActiveCfg = Release|Any CPU
+		{48F11629-BF1E-4F23-8A9D-E791DDD97358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F11629-BF1E-4F23-8A9D-E791DDD97358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F11629-BF1E-4F23-8A9D-E791DDD97358}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{48F11629-BF1E-4F23-8A9D-E791DDD97358}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{48F11629-BF1E-4F23-8A9D-E791DDD97358}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{48F11629-BF1E-4F23-8A9D-E791DDD97358}.Debug|x86.Build.0 = Debug|Any CPU
+		{48F11629-BF1E-4F23-8A9D-E791DDD97358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F11629-BF1E-4F23-8A9D-E791DDD97358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F11629-BF1E-4F23-8A9D-E791DDD97358}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{48F11629-BF1E-4F23-8A9D-E791DDD97358}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{48F11629-BF1E-4F23-8A9D-E791DDD97358}.Release|x86.ActiveCfg = Release|Any CPU
+		{48F11629-BF1E-4F23-8A9D-E791DDD97358}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

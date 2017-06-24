@@ -1,0 +1,17 @@
+.vs
+.vs/*
+bin
+bin/**
+bin
+bin/**
+Library
+Library/**
+Temp
+Temp/**
+obj
+obj/**
+bin
+bin/**
+*.pdb
+packages
+ 
