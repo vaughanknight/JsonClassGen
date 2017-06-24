@@ -1,5 +1,5 @@
 # JsonClassGen
-Command line wrapper around the fantastic json2csharp library.  
+Command line wrapper around the fantastic json2csharp library to generate C# code.
 
 Adds batch support via config file.  Nearly 100% fleshed out, but feel free to contribute as it's pretty close but is doing all the bits I need for now.  
 
