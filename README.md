@@ -8,13 +8,14 @@ Once I started doing the batch processing I don't tend to use the Single file an
 ## Usage 
 ### Batch processing
 Generates all the code based on the configuration file.
-
-JsonClassGen batch -f configfile.json 
-
+```
+JsonClassGen.exe batch -f configfile.json 
+```
 ### Single file
 Generates the code based for a single json file.  The below example generates nested classes in a single file using Pascal case, with the main class for the json file "MainClassName" with the awesome namespace.
 
-JsonClassGen generate -f myjson.json -n Awesome.Namespaces.Are.Awesome -m MainClassName -p -s --pascal --nested
+```
+JsonClassGen.exe generate -f myjson.json -n Awesome.Namespaces.Are.Awesome -m MainClassName -p -s --pascal --nested
 
  -f, --filename         Required. Input JSON file to read.
  -t, --targetfolder     Target output folder.
@@ -33,3 +34,4 @@ JsonClassGen generate -f myjson.json -n Awesome.Namespaces.Are.Awesome -m MainCl
  -v, --verbose          Print details during execution.
  --help                 Display this help screen.
  --version              Display version information.
+```
